@@ -1,12 +1,17 @@
-# Place holder for Repository Name
-This repository was created for use by CDC programs to collaborate on public health surveillance related projects in support of the CDC Surveillance Strategy.  Github is not hosted by the CDC, but is used by CDC and its partners to share information and collaborate on software.
+# cdc-scanrepo
+Script to scan all the repositories under CDCgov organization which will cover below points.
+- checks whether readme.md file present or not.
+- checks whether readme.md file have proper section which needs to have Notices, License, Privacy etc.
+- provides top 3 contributor name and details if repository don't have proper format.
 
-## ----- Start of respository specific READ ME -----
-### This repository specific READ ME instructions go here
+## Getting Started
+clone this project in local and execute below commands:
+```
+git clone https://github.com/CDCgov/template.git
+cd template
+bash githubscan.sh
+```
 
-Replace everything within this section demarcated with “-----“ with material appropriate to your repo that is useful to your developers and users like installation steps, user guide etc.
-## ----- End of respository specific READ ME -----
-  
 ## Public Domain
 This repository constitutes a work of the United States Government and is not
 subject to domestic copyright protection under 17 USC § 105. This repository is in
@@ -64,14 +69,3 @@ Please refer to [CDC's Template Repository](https://github.com/CDCgov/template)
 for more information about [contributing to this repository](https://github.com/CDCgov/template/blob/master/CONTRIBUTING.md),
 [public domain notices and disclaimers](https://github.com/CDCgov/template/blob/master/DISCLAIMER.md),
 and [code of conduct](https://github.com/CDCgov/template/blob/master/code-of-conduct.md).
-
-## ----- for use in template only -----
-## Hat-tips
-Thanks to [18F](https://18f.gsa.gov/)'s [open source policy](https://github.com/18F/open-source-policy)
-and [code of conduct](https://github.com/CDCgov/code-of-conduct/blob/master/code-of-conduct.md)
-that were very useful in setting up this GitHub organization. Thanks to CDC's
-[Informatics Innovation Unit](https://www.phiresearchlab.org/index.php/code-of-conduct/)
-that was helpful in modeling the code of conduct.
-
-## ----- for use in template only -----
-
